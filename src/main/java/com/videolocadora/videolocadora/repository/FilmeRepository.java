@@ -13,14 +13,14 @@ import java.util.UUID;
 
 @Repository
 public interface FilmeRepository extends JpaRepository<Filme, UUID> {
-    List<Filme> findAllByCategoria(Categoria  categoria);
-
-    List<Filme> findAllByDescricaoAndPreco(String descricao, BigDecimal preco);
-
-    List<Filme> findAllByCliente(Cliente cliente);
-
-    List<Emprestimo> findAllByTodosEmprestimos(Cliente cliente);
-
-
+//    List<Filme> findAllByCategoria(Categoria  categoria);
+//
+//    List<Filme> findAllByDescricaoAndPreco(String descricao, BigDecimal preco);
+//
+//    List<Filme> findAllByCliente(Cliente cliente);
+//
+//    List<Emprestimo> findAllByTodosEmprestimos(Cliente cliente);
+//
+//
 
 }
